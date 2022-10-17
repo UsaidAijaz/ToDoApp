@@ -1,4 +1,14 @@
 .LineOver{
     color: gray;
     text-decoration: line-through;
+    /* background-color: blue; */
+}
+.Hide{
+    display: none;
+}
+.member{
+    background-color: #fff;
+}
+button{
+    margin-left: 20px;
 }

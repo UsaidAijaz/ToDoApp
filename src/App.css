@@ -1,0 +1,82 @@
+*{
+    background-color: #eee;
+    /* margin-top: 20px; */
+}
+.MainApp{
+    font-size: 14px;
+    line-height: 2;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 7px;
+    width: auto;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  .button:hover {
+      background-color: #009900;
+  }
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  hr{
+    margin: 0;
+    padding: 0;
+  }
+  .bottom-button{
+    width: auto;
+    margin-left: 40%;
+  }
+  form{
+    background-color: #fff;
+  }
+  h1{
+    padding: 0;
+    margin: 0%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+  form > input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid  #eee;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
